@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+    <title>OBS_</title>
+</head>
+<body>
+    <section class="banner">
+        <header>
+            <a href="#" class="logo">OBS_</a>
+            <!-- <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="work.html">Work</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul> -->
+        </header>
+        <div class="content">
+            <h3>Hey_</h3>
+            <h2>I am <span id="text">Usman Saeed</span></h2>
+            <p>I'm seeking an opportunity to
+                apply my skills and knowledge <br> in
+                a real-world setting, while
+                contributing to a dynamic team <br>
+                and gaining practical experience
+                in web development. <br><br>
+            <button>Hire Me</button>
+            <button class="chat"><ion-icon name="chatbubbles-outline"></ion-icon>Let's Chat</button>
+            </p>
+        </div>
+
+        <img src="images/colors.png" class="colors">
+        <img src="images/men.png" class="men">
+
+
+
+        <ul class="sci">
+            <li><a href="https://www.facebook.com/AwanZada041/"><ion-icon name="logo-facebook"></ion-icon></a></li>
+            <li><a href="https://www.instagram.com/osmanbinsaeed/"><ion-icon name="logo-instagram"></ion-icon></a></li>
+            <li><a href="https://www.youtube.com/@osmancodex"><ion-icon name="logo-youtube"></ion-icon></a></li>
+            <li><a href="https://www.linkedin.com/in/usmansaeed041/"><ion-icon name="logo-linkedin"></ion-icon></a></li>
+        </ul>
+        <div class="daynight">
+            <ion-icon name="moon-outline"></ion-icon>
+            <ion-icon name="sunny-outline"></ion-icon>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+    <script>
+        let banner = document.querySelector('.banner');
+        let daynight = document.querySelector('.daynight');
+        daynight.onclick = function(){
+            banner.classList.toggle('night');
+        }
+    </script>
+
+
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+</body>
+</html>
